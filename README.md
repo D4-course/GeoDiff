@@ -1,4 +1,4 @@
-# GeoDiff: a Geometric Diffusion Model for Molecular Conformation Generation
+# GeoDiff: a Geometric Diffusion Model for Molecular Conformation Generation (Team 13)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/MinkaiXu/GeoDiff/blob/main/LICENSE)
 
