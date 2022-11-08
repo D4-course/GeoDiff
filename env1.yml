@@ -1,0 +1,12 @@
+name: geodiff-viz
+channels:
+  - pytorch
+  - conda-forge
+  - rusty1s
+dependencies:
+  - py3dmol
+  - pickleshare
+  - jsonpickle
+  - pytorch-geometric
+  - pytorch
+  - rdkit

@@ -1,0 +1,8 @@
+version: "3.3"
+services:
+  geodiff:
+    tty: true
+    build: .
+    # ports:
+    # - "80:80"
+    # - "8501:8501"
