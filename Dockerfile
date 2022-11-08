@@ -18,6 +18,6 @@ SHELL ["conda", "run", "-n", "geodiff", "/bin/bash", "-c"]
 
 RUN conda install pytest pylint pytorch-geometric=1.7.2=py37_torch_1.8.0_cu102 -c rusty1s -c conda-forge
 
-# RUN pytest -v
+RUN pytest -v
 
 RUN python linter.py
