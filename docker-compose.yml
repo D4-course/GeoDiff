@@ -3,6 +3,6 @@ services:
   geodiff:
     tty: true
     build: .
-    # ports:
-    # - "80:80"
+    ports:
+    - "80:80"
     # - "8501:8501"

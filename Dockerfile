@@ -21,3 +21,5 @@ RUN conda install pytest pylint pytorch-geometric=1.7.2=py37_torch_1.8.0_cu102 -
 RUN pytest -v
 
 RUN python linter.py
+
+CMD conda run -n geodiff -v uvicorn app.main:app --host 0.0.0.0 --port 80

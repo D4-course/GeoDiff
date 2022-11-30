@@ -51,7 +51,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # Load checkpoint
-    ckpt = torch.load(args.ckpt)
+    ckpt = torch.load(args.ckpt, map_location=torch.device(args.device))
     config_path = glob(os.path.join(os.path.dirname(os.path.dirname(args.ckpt)), '*.yml'))[0]
     with open(config_path, 'r') as f:
         config = EasyDict(yaml.safe_load(f))
@@ -60,6 +60,10 @@ if __name__ == '__main__':
 
     # Logging
     output_dir = get_new_log_dir(log_dir, 'sample', tag=args.tag)
+    if args.out_dir is None:
+        output_dir = 'results'
+    else:
+        output_dir = 'results'
     logger = get_logger('test', output_dir)
     logger.info(args)
 

@@ -1,5 +1,7 @@
 # GeoDiff: a Geometric Diffusion Model for Molecular Conformation Generation (Team 13)
 
+**Team 13 - 2020101129 (Aaron Monis) and 2020101020 (Gautam Ghai)**
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/MinkaiXu/GeoDiff/blob/main/LICENSE)
 
 [[OpenReview](https://openreview.net/forum?id=PzcvxEMzvQC)] [[arXiv](https://arxiv.org/abs/2203.02923)] [[Code](https://github.com/MinkaiXu/GeoDiff)]
