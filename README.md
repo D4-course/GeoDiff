@@ -10,6 +10,18 @@ The official implementation of GeoDiff: A Geometric Diffusion Model for Molecula
 
 ![cover](assets/geodiff_framework.png)
 
+## Setting up the container
+
+```sh
+sudo docker-compose up --build
+```
+
+## Running the website
+
+```sh
+streamlit run frontend/app.py
+```
+
 ## Environments
 
 ### Install via Conda (Recommended)
