@@ -2,6 +2,8 @@
 
 **Team 13 - 2020101129 (Aaron Monis) and 2020101020 (Gautam Ghai)**
 
+**Link to the video:** [https://www.youtube.com/watch?v=YP-9QUEcfTk](https://www.youtube.com/watch?v=YP-9QUEcfTk)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/MinkaiXu/GeoDiff/blob/main/LICENSE)
 
 [[OpenReview](https://openreview.net/forum?id=PzcvxEMzvQC)] [[arXiv](https://arxiv.org/abs/2203.02923)] [[Code](https://github.com/MinkaiXu/GeoDiff)]
